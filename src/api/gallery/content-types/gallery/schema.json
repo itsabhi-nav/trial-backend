@@ -1,25 +1,23 @@
 {
   "kind": "collectionType",
-  "collectionName": "products",
+  "collectionName": "galleries",
   "info": {
-    "singularName": "product",
-    "pluralName": "products",
-    "displayName": "product"
+    "singularName": "gallery",
+    "pluralName": "galleries",
+    "displayName": "Gallery"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "image": {
+    "gallery": {
       "allowedTypes": [
         "images"
       ],
       "type": "media",
-      "multiple": false
+      "multiple": true,
+      "required": true
     }
   }
 }
